@@ -13,12 +13,12 @@ local redzlib = {
 		Darker = {
 			["Color Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 15, 30)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 0, 204)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(28, 29, 114)),
 				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 15, 30))
 			}),
-			["Color Hub 2"] = Color3.fromRGB(0, 0, 102), -- painel interno
+			["Color Hub 2"] = Color3.fromRGB(11, 26, 85), -- painel interno
 			["Color Stroke"] = Color3.fromRGB(30, 40, 60), -- bordas
-			["Color Theme"] = Color3.fromRGB(0, 0, 102), -- azul claro vibrante (destaques)
+			["Color Theme"] = Color3.fromRGB(11, 26, 85), -- azul claro vibrante (destaques)
 			["Color Text"] = Color3.fromRGB(230, 230, 240), -- texto branco suave
 			["Color Dark Text"] = Color3.fromRGB(150, 150, 160) -- texto desativado
 		},
