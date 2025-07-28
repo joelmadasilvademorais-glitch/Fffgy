@@ -11,30 +11,17 @@ local PlayerMouse = Player:GetMouse()
 local redzlib = {
 	Themes = {
 		Darker = {
-			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 20, 35)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 60)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 35))
-			}),
-			["Color Hub 2"] = Color3.fromRGB(25, 25, 50), -- painel interno
-			["Color Stroke"] = Color3.fromRGB(45, 45, 65), -- bordas e linhas
-			["Color Theme"] = Color3.fromRGB(88, 101, 242), -- cor dos botões ativos e detalhes
-			["Color Text"] = Color3.fromRGB(240, 240, 255), -- textos brancos
-			["Color Dark Text"] = Color3.fromRGB(170, 170, 200) -- textos inativos/cinzas
-		},
-
-		Dark = {
-			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 40, 40)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(47.5, 47.5, 47.5)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 40, 40))
-			}),
-			["Color Hub 2"] = Color3.fromRGB(45, 45, 45),
-			["Color Stroke"] = Color3.fromRGB(65, 65, 65),
-			["Color Theme"] = Color3.fromRGB(65, 150, 255),
-			["Color Text"] = Color3.fromRGB(245, 245, 245),
-			["Color Dark Text"] = Color3.fromRGB(190, 190, 190)
-		},
+	["Color Hub 1"] = ColorSequence.new({
+		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 15, 30)),
+		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(20, 30, 50)),
+		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 15, 30))
+	}),
+	["Color Hub 2"] = Color3.fromRGB(15, 20, 35), -- painel interno
+	["Color Stroke"] = Color3.fromRGB(30, 40, 60), -- bordas e divisões
+	["Color Theme"] = Color3.fromRGB(0, 170, 255), -- botões ativos, destaques
+	["Color Text"] = Color3.fromRGB(230, 230, 240), -- textos principais
+	["Color Dark Text"] = Color3.fromRGB(150, 150, 160) -- textos inativos
+},
 
 		Purple = {
 			["Color Hub 1"] = ColorSequence.new({
