@@ -17,7 +17,7 @@ local redzlib = {
 				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 15, 30))
 			}),
 			["Color Hub 2"] = Color3.fromRGB(11, 26, 85), -- painel interno
-			["Color Stroke"] = Color3.fromRGB(30, 40, 60), -- bordas
+			["Color Stroke"] = Color3.fromRGB(0, 0, 255), -- bordas
 			["Color Theme"] = Color3.fromRGB(0, 0, 255), -- azul claro vibrante (destaques)
 			["Color Text"] = Color3.fromRGB(45, 88, 218), -- texto branco suave
 			["Color Dark Text"] = Color3.fromRGB(45, 88, 218) -- texto desativado
