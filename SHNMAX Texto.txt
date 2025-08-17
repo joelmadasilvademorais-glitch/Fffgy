@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://cdn.authguard.org/virtual-file/d13875ee792645f69ff7a83d9977eb04"))()
+loadstring(game:HttpGet("https://cdn.authguard.org/virtual-file/e6c79a943ea14d959d78d3ea600bf86e"))()
